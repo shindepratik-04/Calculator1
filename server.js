@@ -12,9 +12,7 @@ app.post("/", function(req, res){
   var n1 = Number(req.body.num1);
   var n2 = Number(req.body.num2);
   var result = n1 + n2;
-  res.send("<h1 align='center' style="height: 25vh;
-  position: relative;margin: 20px;
-  margin-left: 150px;">The Answer is: " + result + "</h1>");
+  res.send("<h1 style='height: 25vh; position: relative;margin: 20px;margin-left: 150px;'>The Answer is: " + result + "</h1>");
 });
 
 
