@@ -12,7 +12,7 @@ app.post("/", function(req, res){
   var n1 = Number(req.body.num1);
   var n2 = Number(req.body.num2);
   var result = n1/(n2*n2);
-  res.send("<h1 style='height: 25vh; position: relative;margin: 20px;margin-left: 150px;'>The Answer is: " + result + "</h1>");
+  res.send("<h1 align='center' style='align-items: center;background-color: #1db786;position: relative;margin: 50px;margin-left: 85px;'>The Answer is: " + result + "</h1>");
 });
 
 
